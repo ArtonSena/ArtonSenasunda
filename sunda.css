@@ -1,0 +1,120 @@
+body{
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+h1,h4{
+    color: rgb(238, 213, 200);
+    text-align: center;
+
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color:rgb(136, 99, 81);
+  }
+
+nav a:hover {
+    font-weight: bold;
+  }
+
+.navbar{
+    font-size: 32px;
+    padding: 70px;
+    background-image: url(img/Cireundeu.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white ;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav{
+    background-color: rgb(247, 223, 206);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    overflow: hidden;
+}
+
+
+.container-sejarah{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;;
+}
+
+.container-sejarah p{
+    margin: 0px 0px 16px;
+}
+
+.container-sejarah img{
+   margin: 20px 100px;
+   width: 35%;
+   height: 80% ;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.container2{
+    font-size: 18px;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.container2 h1{
+    padding-right: 850px;
+}
+
+.container2 img{
+    border-radius: 20px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.container3{
+    font-size: 18px;
+    font-display: flex;
+    padding : 15px;
+    margin: auto;
+}
+
+.container3 h1{
+    padding-right: 700px;
+}
+
+.container4{
+    font-size: 18px;
+    font-display: flex;
+    padding : 15px;
+    margin: auto;
+}
+
+.container5{
+    font-size: 18px;
+    font-display: flex;
+    padding : 15px;
+    margin: auto;
+}
+
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 223, 206);
+    font-size: 15px;
+  }
+
